@@ -34,13 +34,13 @@ GOOD:
 To install, run:
 
 ```
-$ go get sigs.k8s.io/yaml
+$ go get github.com/wangyysde/yaml
 ```
 
 And import using:
 
 ```
-import "sigs.k8s.io/yaml"
+import "github.com/wangyysde/yaml"
 ```
 
 Usage is very similar to the JSON library:
@@ -51,7 +51,7 @@ package main
 import (
 	"fmt"
 
-	"sigs.k8s.io/yaml"
+	"github.com/wangyysd/yaml"
 )
 
 type Person struct {
